@@ -1,0 +1,69 @@
+<html>
+
+<style>
+    span{color: brown;}
+</style>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Teste de módulos</title>
+    </head>
+    <body>
+        <div id="app">
+            <div>
+                <span id="rot">Id:</span>
+                <input id="id" type="text" />
+            </div>
+            <div>
+                <span id="rot">Data:</span>
+                <input id="dat" type="text" />
+            </div>
+            <div>
+                <span id="rot">Horario início:</span>
+                <input id="hoin" type="text" />
+            </div>
+
+            <div>
+                <span id="rot">Horario término:</span>
+                <input id="hot" type="text" />
+            </div>
+
+            <div>
+                <span id="rot">Evento:</span>
+                <input id="eve" type="text" />
+            </div>
+
+            <div>
+                <span id="rot">Descrição:</span>
+                <input id="des" type="text" />
+            </div>
+
+            <div>
+                <span id="rot">Status:</span>
+                <input id="st" type="text" />
+            </div>
+
+            <button id="add">Adicionar</button>
+            <button id="find">Alterar</button>
+            <button id="update">Atualizar</button>
+            <button id="remove">Remover</button>
+            <div id="result">
+                <table border="1">
+                    <thead id="result">
+                        <th>Id</th>
+                        <th>Data</th>
+                        <th>Ho_In</th>
+                        <th>Hor_Te</th>
+                        <th>Evento</th>
+                        <th>Desc</th>
+                        <th>Status</th>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="./aula.js" type="module"></script>
+    </body>
+</html>

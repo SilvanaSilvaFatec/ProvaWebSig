@@ -1,0 +1,36 @@
+body {
+    background-image:url("./background.jpeg");
+    background-size:cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #app {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+} */
+
+#app{
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#ffffff;
+    border-radius:20px;
+    border: 1px solid;
+    margin-top:10px;
+    padding:20px;
+    border-color:#a1a1a1;
+    overflow-wrap: break-word;
+    align-items: center;
+}
+
+#rot {
+    color: blue;
+    font-size: 30;
+}
